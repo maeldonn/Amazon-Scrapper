@@ -7,13 +7,13 @@ First, you will need to fill the data part of the program (line 17 to 23).
 
 There are two ways to execute the program. In any case, you need to specify an argument. If you only want to get the price, the required argument is 0.
 
-```
+```sh
 python AmazonScrapper.py 0
 ```
 
 You can also run the program until the price decrease to a new price. The required argument will be the number of time per day which the program will check the actual price.
 
-```
+```sh
 python AmazonScrapper.py number_of_check
 ```
 
